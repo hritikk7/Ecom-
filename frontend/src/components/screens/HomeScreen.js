@@ -22,8 +22,8 @@ const HomeScreen = () => {
           products.map((product) => {
             return (
               <Product
-                productId={product._id}
                 key={product._id}
+                productId={product._id}
                 name={product.name}
                 price={product.price}
                 description={product.description}                
